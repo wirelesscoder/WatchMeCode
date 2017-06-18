@@ -110,3 +110,39 @@ body{background: #fde3a7;}
 	border-radius: 50%;
 	z-index: -1;
 }
+
+.body::after{
+	background-color: #F4C7A6;
+	margin: 230px 0 0 70px;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	box-shadow: 90px 0px 0px #F4C7A6;
+}
+
+.arms_legs{
+	background-color: #52291D;
+	position: absolute;
+	margin: 0 0 0 0;
+	width: 70px;
+	height: 160px;
+	border-radius: 30px;
+	box-shadow: 70px 0px 1px #52291D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
