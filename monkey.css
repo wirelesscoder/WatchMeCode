@@ -11,8 +11,8 @@ body{background: #fde3a7;}
   margin: auto;
   margin-top: 10%;
   display: block;
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: 600px;
   border: 10px solid white;
   box-shadow: -5px -5px 20px #764c3e, inset -5px -2px 5px #9e6c4b;
   perspective: 1000px;
@@ -101,3 +101,12 @@ body{background: #fde3a7;}
 }
 
 
+.body{
+	background-color: #52291D;
+	margin: -80px 0 0 85px;
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	z-index: -1;
+}
