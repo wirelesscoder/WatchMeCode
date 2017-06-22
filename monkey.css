@@ -103,17 +103,17 @@ body{background: #fde3a7;}
 
 .body{
 	background-color: #52291D;
-	margin: -80px 0 0 85px;
+	margin: -80px 0 0 105px;
 	position: absolute;
-	width: 300px;
-	height: 300px;
+	width: 250px;
+	height: 250px;
 	border-radius: 50%;
 	z-index: -1;
 }
 
 .body::after{
 	background-color: #F4C7A6;
-	margin: 230px 0 0 70px;
+	margin: 175px 0 0 50px;
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
@@ -123,11 +123,13 @@ body{background: #fde3a7;}
 .arms_legs{
 	background-color: #52291D;
 	position: absolute;
-	margin: 0 0 0 0;
+	margin: 10px 0 0 60px;
 	width: 70px;
 	height: 160px;
 	border-radius: 30px;
-	box-shadow: 70px 0px 1px #52291D;
+	box-shadow: 280px 0px 1px #52291D,
+				69px 0px 1px #784c3c,
+				211px 0px 1px #784c3c;
 }
 
 
