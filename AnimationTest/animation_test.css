@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@keyframes animate_shape {
+	0%{
+		transform: rotate(0deg);
+	}
+	
+ 50%{
+    transform: rotate(90deg);
+  }
+  100%{
+    transform: rotate(180deg);
+  }
+}
+
+.shape{
+	background-color: red;
+	margin: 20% 0 0 50%;
+	width: 200px;
+	height: 20px;
+	animation: animate_shape 2s infinite;
+}
