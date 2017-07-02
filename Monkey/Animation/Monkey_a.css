@@ -178,32 +178,3 @@ body{background: #EFE6D2;}
   animation: right 4s infinite;
   z-index: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<body>
-<div class="head">
-	<div class="ears"></div>
-	<div class="eyes"></div>
-	<div class="mouth_nose"></div>
-</div>
-<div class="body"></div>
-<div class="arm_left"></div>
-<div class="arm_right"></div>
-</body>
-</html>
-
