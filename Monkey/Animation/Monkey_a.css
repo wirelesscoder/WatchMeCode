@@ -1,3 +1,4 @@
+/*
 @keyframes left {
   0% {
     transform: rotateZ(0);
@@ -21,6 +22,8 @@
     transform: rotateZ(0);
   }
 }
+
+*/
 
 * ::before, ::after{position: absolute; content: '';}
 
@@ -119,6 +122,13 @@ body{background: #EFE6D2;}
 	animation-delay: 2s;
   animation: left 4s infinite;
   z-index: 1;
+}
+
+.arm_left::after{
+	background-color: #f4c7a6;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
 }
 
 .arm_right{
